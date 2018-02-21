@@ -30,6 +30,8 @@ function walk(node){
 function handleText(textNode) {
 	var v = textNode.nodeValue;
 
+	// Originally for one case, ex: changing every instance of a single word,
+	// but for this implementation it needed variety, and who dosen't like the spice of life?
     if(Math.round(Math.random(1))) {
         v = v.replace(/\b,\b/g, "ummm");
     } else {
