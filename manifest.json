@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Comma to Incoherent",
+	"version": "1.0",
+	"description": "Replaces any instance of a comma, to either 'umm, or uhh",
+	"index.js": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["index.js"],
+			"run_at": "document_end"
+		}
+	]
+}
