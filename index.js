@@ -38,5 +38,5 @@ function handleText(textNode) {
 	// replaced = replaced.replace(/\b,\b/g, "ummm")
 	// new regex
 	// /,/ig
-	textNode.nodeValue = v;
+	textNode.nodeValue = replaced;
 }
